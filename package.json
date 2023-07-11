@@ -1,0 +1,21 @@
+{
+  "name": "videos-dl-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "dev": "node -r dotenv/config --watch index.js",
+    "start": "node -r dotenv/config index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "fs-extra": "^11.1.1",
+    "pkg": "^5.8.1",
+    "playwright": "^1.35.1"
+  }
+}
